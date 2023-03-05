@@ -85,6 +85,7 @@ public class GuessTheNumberGame {
                             break;
                         }
                     }
+                    exit_var = false;
                     game.setChances(0);
                     game.setPoints(0);
                     System.out.println("----------------------------------------------------");
